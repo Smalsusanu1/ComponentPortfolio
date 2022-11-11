@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "componentportfolio-client-side-solution",
+    "id": "1c1f0ca0-55a8-493c-a99d-0524ee8808f5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "componentportfolio description"
+      },
+      "longDescription": {
+        "default": "componentportfolio description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "componentportfolio Feature",
+        "description": "The feature that activates elements of the componentportfolio solution.",
+        "id": "a7253342-43f3-4196-8437-753fbf14d2b3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/componentportfolio.sppkg"
+  }
+}
